@@ -1,0 +1,160 @@
+{
+  "input": {
+    "brand": "OpenAI",
+    "location": "Union Square, San Francisco",
+    "size": 6000,
+    "goal": "flagship",
+    "trend": "fun",
+    "notes": ""
+  },
+  "image": "/playbook/example-render.jpg",
+  "strategy": {
+    "title": "OpenAI Union Square, a playful flagship that lets strangers play with AI",
+    "store_role": "Brand and community builder",
+    "insight": "OpenAI is known for ChatGPT and sells almost entirely through screens, so this may be its first store. The store must let people talk, draw, and play with the models using their voices and hands, because most visitors have only read about what it does.",
+    "concept": {
+      "name": "The Play Lab × OpenAI",
+      "idea": "The store is a science museum playground where each exhibit is a game that answers back. Visitors play first, then learn what the tool can do for their own work.",
+      "visual": "A bright, quiet white hall with pale oak floors and soft curved walls. A tall kinetic sculpture of hanging rings rises at the centre and shifts as visitors speak. Low plinths hold touchable instruments. Visitors draw, hum, and describe things aloud, and watch the room answer in light and sound."
+    },
+    "zones": [
+      {
+        "name": "Responsive window",
+        "share_pct": 8,
+        "type": "story",
+        "front_of_house": true,
+        "feature": "One ring sculpture in the glass that reacts to passersby on Union Square. People wave or speak and it answers in light, day and night.",
+        "why": "Window and threshold. It stops people on the sidewalk and promises the play inside.",
+        "kpi": "Passersby who stop and share of those who enter.",
+        "evidence_ids": [
+          "coach-tabby-ar-window",
+          "p-window-hero"
+        ],
+        "confidence": "proven"
+      },
+      {
+        "name": "Open entry",
+        "share_pct": 8,
+        "type": "flow",
+        "front_of_house": true,
+        "feature": "A clear entry floor with no signs or product. Light and sound respond softly as people step in.",
+        "why": "Decompression. It gives visitors time to adjust before choosing a path.",
+        "kpi": "Dwell at the threshold and share who turn right.",
+        "evidence_ids": [
+          "p-decompression",
+          "ref-nike-rise-entrance"
+        ],
+        "confidence": "precedent"
+      },
+      {
+        "name": "Voice and Talk Wall",
+        "share_pct": 14,
+        "type": "useful",
+        "front_of_house": true,
+        "feature": "The first wall on the right holds six talk stations. Visitors speak, ask for help with a real task, and leave with a saved transcript.",
+        "why": "Power wall. It shows what the product does, in the first thirty seconds.",
+        "kpi": "Conversations started per hour and share completing a task.",
+        "evidence_ids": [
+          "p-right-turn",
+          "samsung-arese"
+        ],
+        "confidence": "proven"
+      },
+      {
+        "name": "Play Floor",
+        "share_pct": 24,
+        "type": "story",
+        "front_of_house": true,
+        "feature": "Hands on games along a winding path. Draw and see it animate, hum and hear it arranged, point a camera at an object and ask about it.",
+        "why": "Discovery. Visitors handle the product through play and learn by trying.",
+        "kpi": "Games played per visitor and dwell time by game.",
+        "evidence_ids": [
+          "dicks-house-of-sport",
+          "gc-race-your-shadow",
+          "p-touch",
+          "p-crowding"
+        ],
+        "confidence": "proven"
+      },
+      {
+        "name": "Ring Sculpture Stage",
+        "share_pct": 14,
+        "type": "story",
+        "front_of_house": true,
+        "feature": "The central kinetic sculpture. Group prompts shape its movement, and visitors can see their voices change it.",
+        "why": "Destination. It sits deep so every path crosses the Play Floor, and it orients the whole floor.",
+        "kpi": "Group sessions per day and photos shared.",
+        "evidence_ids": [
+          "gentle-monster-growth",
+          "ref-gm-soho",
+          "p-landmark"
+        ],
+        "confidence": "proven"
+      },
+      {
+        "name": "Workshop Lounge",
+        "share_pct": 14,
+        "type": "useful",
+        "front_of_house": true,
+        "feature": "Modular seating, a small coffee bar, and a flex floor for classes on writing, coding, and study with the tools.",
+        "why": "Connect. It gives longer stays and a reason to return between visits.",
+        "kpi": "Class attendance and repeat visits per month.",
+        "evidence_ids": [
+          "wise-oxford-street",
+          "ref-on-selfridges",
+          "p-modular",
+          "p-dwell-tiers"
+        ],
+        "confidence": "proven"
+      },
+      {
+        "name": "Setup Bar",
+        "share_pct": 10,
+        "type": "useful",
+        "front_of_house": true,
+        "feature": "A counter where staff help visitors create an account, set up the app on their phone, and print a keepsake card of their best creation.",
+        "why": "Leave with something. Visitors depart with a working account and a memento.",
+        "kpi": "Sign ups at the store and keepsake cards printed.",
+        "evidence_ids": [
+          "samsung-arese",
+          "icsc-halo"
+        ],
+        "confidence": "proven"
+      },
+      {
+        "name": "Back of house",
+        "share_pct": 8,
+        "type": "flow",
+        "front_of_house": false,
+        "feature": "Staff room, storage, and a small repair bench for the demo hardware.",
+        "why": "Supports every zone by keeping demos running and the floor clear.",
+        "kpi": "Demo uptime per day.",
+        "evidence_ids": [],
+        "confidence": "untested"
+      }
+    ],
+    "kpis": [
+      {
+        "metric": "Visitors per week",
+        "how_measured": "Door counters, compared with Union Square foot traffic."
+      },
+      {
+        "metric": "Dwell time by zone",
+        "how_measured": "Camera analytics for paths, queues, and time in each zone."
+      },
+      {
+        "metric": "Sign ups at the store",
+        "how_measured": "Accounts created at the Setup Bar and the Talk Wall."
+      },
+      {
+        "metric": "Window conversion",
+        "how_measured": "Passersby who stop at the window versus those who enter."
+      },
+      {
+        "metric": "Ninety day review",
+        "how_measured": "Review dwell, paths, and game use, then retire the weakest games and expand the strongest."
+      }
+    ],
+    "trend": "fun"
+  }
+}

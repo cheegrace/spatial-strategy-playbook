@@ -1,0 +1,1241 @@
+{
+  "meta": {
+    "title": "Spatial Strategy Playbook — evidence base",
+    "compiled": "2026-10-08",
+    "compiled_by": "Grace Chee (research assisted by Claude)",
+    "how_to_use": "The strategy generator may only cite entries from this file. 'proven_cases' have published, measured outcomes. 'reference_examples' are design precedents with no published results and must be labeled 'precedent, no published results'. 'research' entries are industry-wide findings. 'principles' are spatial rules with their sources. Every recommendation the generator makes must point to at least one id from proven_cases or research; anything else is labeled 'untested idea'.",
+    "evidence_strength_scale": {
+      "third_party_data": "Measured by an independent data provider (e.g. Placer.ai foot traffic) or independent research body.",
+      "company_reported": "Figures published by the brand or retailer (press release, earnings call, newsroom).",
+      "agency_reported": "Figures published by the agency or practitioner that produced the work.",
+      "directional": "Outcome described without a precise figure, or growth not directly attributed to the store experience."
+    },
+    "tag_vocab": {
+      "goals": [
+        "launch",
+        "community",
+        "trial_conversion",
+        "awareness",
+        "service_loyalty",
+        "new_customers"
+      ],
+      "tactics": [
+        "hospitality",
+        "customization",
+        "installation_art",
+        "ar_window",
+        "fit_diagnosis",
+        "personalization",
+        "programming_events",
+        "clubs",
+        "small_format",
+        "tiered_formats",
+        "partner_store",
+        "culture_partner",
+        "circularity_repair",
+        "retail_media_screens",
+        "sports_play_zones",
+        "immersive_popup",
+        "rotating_takeover",
+        "ecosystem_demo",
+        "calm_sensory",
+        "category_breaking",
+        "launch_event",
+        "gamified_trial"
+      ],
+      "tech_role": [
+        "useful",
+        "story",
+        "none"
+      ],
+      "visit_zone": [
+        "window",
+        "decompression",
+        "power_wall",
+        "discovery",
+        "destination",
+        "connect",
+        "exit_service",
+        "whole_store"
+      ]
+    }
+  },
+  "proven_cases": [
+    {
+      "id": "dicks-house-of-sport",
+      "brand": "DICK'S Sporting Goods",
+      "project": "House of Sport experiential store format",
+      "year": "2021 to 2026",
+      "location": "US (multiple)",
+      "format": "large-format experiential store (~100–120k sq ft)",
+      "goals": [
+        "trial_conversion",
+        "community",
+        "new_customers"
+      ],
+      "tactics": [
+        "sports_play_zones",
+        "partner_store",
+        "gamified_trial"
+      ],
+      "tech_role": "useful",
+      "visit_zones": [
+        "destination",
+        "connect"
+      ],
+      "what_they_did": "Built stores around places to play and test gear, such as climbing walls and batting cages, rather than racks of product alone.",
+      "results": [
+        {
+          "metric": "Visits per location against the chain average",
+          "value": "about 5 to 6x",
+          "evidence_strength": "third_party_data",
+          "source_id": "placer-hos-2024"
+        },
+        {
+          "metric": "Comparable sales",
+          "value": "Still growing three to four years after opening, with longer visits and bigger baskets than at standard DICK'S stores (CEO, Q1 2026 call)",
+          "evidence_strength": "company_reported",
+          "source_id": "cxdive-hos-2026"
+        }
+      ],
+      "lesson": "Space given to trying and playing earns its square footage when it pulls repeat visits; the play zone is the destination that drives traffic through the store.",
+      "sources": [
+        {
+          "id": "placer-hos-2024",
+          "title": "Dick's Sporting Goods: New Store Formats Driving Visit Outperformance",
+          "publisher": "Placer.ai",
+          "date": "2024-03-15",
+          "url": "https://www.placer.ai/anchor/articles/dicks-sporting-goods-new-store-formats-driving-visit-outperformance"
+        },
+        {
+          "id": "cxdive-hos-2026",
+          "title": "Dick's continues to reap the gains from its experiential stores",
+          "publisher": "Customer Experience Dive",
+          "date": "2026-05-27",
+          "url": "https://www.customerexperiencedive.com/news/dicks-gains-experiential-stores/821265/"
+        }
+      ]
+    },
+    {
+      "id": "coach-tabby-ar-window",
+      "brand": "Coach",
+      "project": "Tabby global activations and AR storefront (SoHo, with ZERO10)",
+      "year": "2023",
+      "location": "New York SoHo; Tokyo, Bangkok, Singapore and others",
+      "format": "AR window + themed pop-ups",
+      "goals": [
+        "awareness",
+        "new_customers",
+        "trial_conversion"
+      ],
+      "tactics": [
+        "ar_window",
+        "immersive_popup",
+        "hospitality"
+      ],
+      "tech_role": "story",
+      "visit_zones": [
+        "window"
+      ],
+      "what_they_did": "Put an AR mirror in the SoHo store window and ran Tabby pop ups with cafés, ice cream trucks, immersive rooms, and local artist murals.",
+      "results": [
+        {
+          "metric": "More pedestrians paying attention than to a standard window",
+          "value": "+93.5%",
+          "evidence_strength": "company_reported",
+          "source_id": "glossy-coach-2023"
+        },
+        {
+          "metric": "More store traffic with the AR window",
+          "value": "+49.4%",
+          "evidence_strength": "company_reported",
+          "source_id": "glossy-coach-2023"
+        },
+        {
+          "metric": "Gen Z share of Tabby visitors in North America",
+          "value": "95%, with waits of 60 to 75 minutes and visits of about 9 minutes",
+          "evidence_strength": "company_reported",
+          "source_id": "glossy-coach-2023"
+        }
+      ],
+      "lesson": "An interactive window can measurably convert passersby into store visitors when it lets people try the product on themselves.",
+      "sources": [
+        {
+          "id": "glossy-coach-2023",
+          "title": "How Coach used global retail activations to popularize a hero product",
+          "publisher": "Glossy",
+          "date": "2023-05-18",
+          "url": "https://www.glossy.co/fashion/how-coach-used-global-retail-activations-to-popularize-a-hero-product/"
+        }
+      ]
+    },
+    {
+      "id": "coach-expressive-luxury-stores",
+      "brand": "Coach (Tapestry)",
+      "project": "\"Expressive luxury\" store concept",
+      "year": "2025 to 2026",
+      "location": "Global rollout",
+      "format": "store concept",
+      "goals": [
+        "new_customers",
+        "community"
+      ],
+      "tactics": [
+        "customization"
+      ],
+      "tech_role": "none",
+      "visit_zones": [
+        "whole_store",
+        "exit_service"
+      ],
+      "what_they_did": "Redesigned stores around experience and customization, paused the rollout to study shopper feedback, then relaunched.",
+      "results": [
+        {
+          "metric": "Traffic and visit length",
+          "value": "Higher traffic and longer visits, strongest with Gen Z (no figure published)",
+          "evidence_strength": "directional",
+          "source_id": "cxdive-coach-2026"
+        },
+        {
+          "metric": "Rollout plan",
+          "value": "The concept will cover 80% of Coach store traffic by fiscal 2030",
+          "evidence_strength": "company_reported",
+          "source_id": "cxdive-coach-2026"
+        }
+      ],
+      "lesson": "Test a store concept, pause to learn from shoppers, then scale; customization is part of making the store 'as engaging as the product'.",
+      "sources": [
+        {
+          "id": "cxdive-coach-2026",
+          "title": "Tapestry leverages customer insights to court Gen Z in Coach stores",
+          "publisher": "Customer Experience Dive",
+          "date": "2026-08-13",
+          "url": "https://www.customerexperiencedive.com/news/tapestry-leverages-customer-insights-court-gen-z-coach-stores/827844/"
+        }
+      ]
+    },
+    {
+      "id": "samsung-arese",
+      "brand": "Samsung",
+      "project": "Samsung Experience Store, Il Centro di Arese (Milan)",
+      "year": "2024 to 2025",
+      "location": "Arese, Italy",
+      "format": "brand experience store in a mall",
+      "goals": [
+        "launch",
+        "trial_conversion",
+        "service_loyalty"
+      ],
+      "tactics": [
+        "ecosystem_demo",
+        "programming_events",
+        "circularity_repair"
+      ],
+      "tech_role": "useful",
+      "visit_zones": [
+        "discovery",
+        "exit_service",
+        "connect"
+      ],
+      "what_they_did": "Hands on ecosystem demos, free data transfer between devices, colours sold only in store, technical support, workshops, and live demonstrations.",
+      "results": [
+        {
+          "metric": "Visitors in the first year",
+          "value": "300,000+",
+          "evidence_strength": "company_reported",
+          "source_id": "samsung-arese-2025"
+        },
+        {
+          "metric": "Ecosystem attach",
+          "value": "About half of buyers added another Samsung device",
+          "evidence_strength": "company_reported",
+          "source_id": "samsung-arese-2025"
+        }
+      ],
+      "lesson": "For a tech brand, a setup-and-transfer service plus ecosystem demos turns a single purchase into a multi-device basket.",
+      "sources": [
+        {
+          "id": "samsung-arese-2025",
+          "title": "Samsung Experience Store di Arese first anniversary (Italian)",
+          "publisher": "Samsung Newsroom Italia",
+          "date": "2025-06",
+          "url": "https://news.samsung.com/it/il-samsung-experience-store-di-arese-festeggia-il-suo-primo-anniversario-oltre-300-mila-visitatori-e-un-nuovo-modello-di-relazione-tra-persone-e-tecnologia"
+        }
+      ]
+    },
+    {
+      "id": "sephora-at-kohls",
+      "brand": "Sephora at Kohl's",
+      "project": "Shop in shop partnership",
+      "year": "2020 to 2024",
+      "location": "US, 1,000+ Kohl's stores",
+      "format": "shop-in-shop (small and large formats)",
+      "goals": [
+        "new_customers",
+        "trial_conversion"
+      ],
+      "tactics": [
+        "partner_store",
+        "small_format"
+      ],
+      "tech_role": "none",
+      "visit_zones": [
+        "whole_store"
+      ],
+      "what_they_did": "Placed Sephora shops inside Kohl's stores, with small formats grouped by category rather than by brand.",
+      "results": [
+        {
+          "metric": "Annual sales",
+          "value": "Over $1.4 billion",
+          "evidence_strength": "company_reported",
+          "source_id": "loyalty360-sephora-kohls"
+        },
+        {
+          "metric": "Share of Kohl's sales growth over the year",
+          "value": "More than 90%",
+          "evidence_strength": "company_reported",
+          "source_id": "loyalty360-sephora-kohls"
+        }
+      ],
+      "lesson": "A destination category placed inside a partner's store can bring that partner new customers; small formats work when curated by shopper need.",
+      "caveats": "Source article is undated (published around 2023). Later Retail Dive coverage (2025) reports Sephora at Kohl's sales slowing, so treat as a growth-phase result.",
+      "sources": [
+        {
+          "id": "loyalty360-sephora-kohls",
+          "title": "Sephora at Kohl's Sales Reach $1.4 Billion, 140 New Stores Planned",
+          "publisher": "Loyalty360",
+          "date": "c. 2023",
+          "url": "https://loyalty360.org/Content-Gallery/Daily-News/Sephora-at-Kohl-s-Sales-Reach-$1-4-Billion-140-New"
+        }
+      ]
+    },
+    {
+      "id": "wise-oxford-street",
+      "brand": "Wise",
+      "project": "Two week pop up at Future Stores, Oxford Street (with Dalziel & Pow)",
+      "year": "Reported September 2026",
+      "location": "London",
+      "format": "pop-up",
+      "goals": [
+        "awareness",
+        "new_customers"
+      ],
+      "tactics": [
+        "category_breaking",
+        "hospitality",
+        "programming_events"
+      ],
+      "tech_role": "none",
+      "visit_zones": [
+        "connect",
+        "discovery"
+      ],
+      "what_they_did": "Treated a bank like a hospitality brand, with a matcha bar, a Wisdom Bar for specialist advice, streetwear style merch kiosks that rewarded new accounts, and an event space.",
+      "results": [
+        {
+          "metric": "Visitors in two weeks",
+          "value": "Nearly 16,000",
+          "evidence_strength": "agency_reported",
+          "source_id": "designweek-rebellion-2026"
+        },
+        {
+          "metric": "Customer satisfaction",
+          "value": "90%",
+          "evidence_strength": "agency_reported",
+          "source_id": "designweek-rebellion-2026"
+        },
+        {
+          "metric": "Street impressions",
+          "value": "1 million+",
+          "evidence_strength": "agency_reported",
+          "source_id": "designweek-rebellion-2026"
+        }
+      ],
+      "lesson": "Borrowing hospitality cues from outside the category makes a low-interest category worth visiting; tie a reward to the action you want (sign-ups).",
+      "sources": [
+        {
+          "id": "designweek-rebellion-2026",
+          "title": "Brand rebellion: how to stand out by breaking up with category conventions",
+          "publisher": "Design Week (Rowena Rowland, Dalziel & Pow)",
+          "date": "2026-09-01",
+          "url": "https://www.designweek.co.uk/brand-rebellion-how-to-stand-out-by-breaking-up-with-category-conventions/"
+        }
+      ]
+    },
+    {
+      "id": "ikea-sleepeasy",
+      "brand": "IKEA",
+      "project": "Sleepeasy pop up",
+      "year": "2024",
+      "location": "51 Crosby St, SoHo, New York",
+      "format": "14,000 sq ft immersive pop-up",
+      "goals": [
+        "awareness",
+        "launch"
+      ],
+      "tactics": [
+        "immersive_popup",
+        "installation_art",
+        "hospitality"
+      ],
+      "tech_role": "story",
+      "visit_zones": [
+        "whole_store"
+      ],
+      "what_they_did": "A speakeasy behind a hidden door in a Swedish bodega, with one room for each sleep essential (comfort, sound, air, light, organization, and temperature), QR purchasing throughout, and themed food and scent.",
+      "results": [
+        {
+          "metric": "Visitors in the first weekend",
+          "value": "5,000+",
+          "evidence_strength": "company_reported",
+          "source_id": "bizbash-ikea-2024"
+        },
+        {
+          "metric": "Opening event",
+          "value": "Highest attendance of any NYC IKEA event",
+          "evidence_strength": "company_reported",
+          "source_id": "bizbash-ikea-2024"
+        },
+        {
+          "metric": "Afterlife",
+          "value": "IKEA plans to bring elements into permanent stores",
+          "evidence_strength": "company_reported",
+          "source_id": "bizbash-ikea-2024"
+        }
+      ],
+      "lesson": "Organize an experience around the shopper's problem (sleep) rather than product categories; a pop-up can prototype ideas for permanent stores.",
+      "sources": [
+        {
+          "id": "bizbash-ikea-2024",
+          "title": "IKEA's Dreamy 'Sleepeasy' Is a Whimsical Ode to a Good Night's Sleep",
+          "publisher": "BizBash",
+          "date": "2024-08",
+          "url": "https://www.bizbash.com/experiential-marketing/ikea-s-dreamy-sleepeasy-is-a-whimsical-ode-to-a-good-night-s-sleep"
+        }
+      ]
+    },
+    {
+      "id": "ulta-events-loyalty",
+      "brand": "Ulta Beauty",
+      "project": "Store events powered by loyalty data",
+      "year": "2025",
+      "location": "US",
+      "format": "store program",
+      "goals": [
+        "community",
+        "service_loyalty",
+        "trial_conversion"
+      ],
+      "tactics": [
+        "programming_events",
+        "personalization"
+      ],
+      "tech_role": "useful",
+      "visit_zones": [
+        "connect",
+        "discovery"
+      ],
+      "what_they_did": "Made its loyalty program the main data source for AI personalization and ran more than 100,000 store events.",
+      "results": [
+        {
+          "metric": "Loyalty members",
+          "value": "46.7 million (up 5% in fiscal 2025)",
+          "evidence_strength": "company_reported",
+          "source_id": "propmodo-2026"
+        },
+        {
+          "metric": "Store performance",
+          "value": "Events lifted store conversion and NPS (no figure published)",
+          "evidence_strength": "directional",
+          "source_id": "propmodo-2026"
+        }
+      ],
+      "lesson": "Events at scale, informed by loyalty data, are a lever on store conversion, not only on awareness.",
+      "sources": [
+        {
+          "id": "propmodo-2026",
+          "title": "AI Helps Retailers Bring Digital Personalization to Physical Stores",
+          "publisher": "Propmodo",
+          "date": "2026-03-18",
+          "url": "https://propmodo.com/ai-helps-retailers-bring-digital-personalization-to-physical-stores/"
+        }
+      ]
+    },
+    {
+      "id": "arcteryx-rebird",
+      "brand": "Arc'teryx",
+      "project": "ReBird repair, trade in, and resale",
+      "year": "2019 to 2022",
+      "location": "SoHo NYC service center; 80+ stores",
+      "format": "in-store service program",
+      "goals": [
+        "service_loyalty",
+        "new_customers"
+      ],
+      "tactics": [
+        "circularity_repair"
+      ],
+      "tech_role": "none",
+      "visit_zones": [
+        "exit_service"
+      ],
+      "what_they_did": "Trade in for store credit, repairs down to whole panel replacement, care events, and upcycling, with a repair center in SoHo.",
+      "results": [
+        {
+          "metric": "Units traded in over the first six months",
+          "value": "5,000",
+          "evidence_strength": "company_reported",
+          "source_id": "glossy-arcteryx"
+        },
+        {
+          "metric": "Trade in credit",
+          "value": "30% of retail price (up from 20%)",
+          "evidence_strength": "company_reported",
+          "source_id": "glossy-arcteryx"
+        }
+      ],
+      "lesson": "Service and repair give owners a reason to return after the sale and make product quality visible.",
+      "sources": [
+        {
+          "id": "glossy-arcteryx",
+          "title": "'Education is key': Outdoor apparel brand Arc'teryx grows its circularity program",
+          "publisher": "Glossy",
+          "date": "c. 2021",
+          "url": "https://www.glossy.co/fashion/education-is-key-outdoor-apparel-brand-arcteryx-grows-its-circularity-program"
+        }
+      ]
+    },
+    {
+      "id": "cvs-instore-screens",
+      "brand": "CVS Health (and other retail media networks)",
+      "project": "Digital screen network in stores",
+      "year": "2025 to 2026",
+      "location": "US",
+      "format": "store media network",
+      "goals": [
+        "awareness",
+        "trial_conversion"
+      ],
+      "tactics": [
+        "retail_media_screens"
+      ],
+      "tech_role": "useful",
+      "visit_zones": [
+        "decompression",
+        "exit_service"
+      ],
+      "what_they_did": "Screens at the entrance, the pharmacy wait, the end caps, and the checkout, with about 11,000 expected in 2026.",
+      "results": [
+        {
+          "metric": "Shoppers who find the screens useful",
+          "value": "54%",
+          "evidence_strength": "company_reported",
+          "source_id": "modernretail-screens-2026"
+        },
+        {
+          "metric": "Shoppers who act after seeing them",
+          "value": "20%",
+          "evidence_strength": "company_reported",
+          "source_id": "modernretail-screens-2026"
+        }
+      ],
+      "lesson": "Screens help where shoppers wait or decide (pharmacy, checkout); placed elsewhere they become clutter. Note the contrast with the 'tech woven into architecture' direction.",
+      "sources": [
+        {
+          "id": "modernretail-screens-2026",
+          "title": "Retailers like Kroger, CVS plan many more screens for in-store ads in 2026",
+          "publisher": "Modern Retail",
+          "date": "2026-01-06",
+          "url": "https://www.modernretail.co/marketing/retailers-like-kroger-cvs-plan-many-more-screens-for-in-store-ads-in-2026/"
+        }
+      ]
+    },
+    {
+      "id": "ikea-small-format",
+      "brand": "IKEA (and peers)",
+      "project": "Small format stores",
+      "year": "2024 to 2026",
+      "location": "Canada and global",
+      "format": "small format (IKEA London, Ont.: 43,000 sq ft, ~2,700 items)",
+      "goals": [
+        "community",
+        "new_customers"
+      ],
+      "tactics": [
+        "small_format",
+        "tiered_formats"
+      ],
+      "tech_role": "none",
+      "visit_zones": [
+        "whole_store"
+      ],
+      "what_they_did": "Opened stores at a fraction of the usual size, with a tighter range, in dense city neighborhoods.",
+      "results": [
+        {
+          "metric": "Time to open against a full size store",
+          "value": "25% faster, at lower cost",
+          "evidence_strength": "company_reported",
+          "source_id": "bnn-smallformat-2026"
+        },
+        {
+          "metric": "Counterpoint",
+          "value": "IKEA closed its small Scarborough store within three years, citing online shopping and a limited range",
+          "evidence_strength": "company_reported",
+          "source_id": "bnn-smallformat-2026"
+        }
+      ],
+      "lesson": "Small formats are cheaper and faster but live or die on the edit; plan what earns floor space.",
+      "sources": [
+        {
+          "id": "bnn-smallformat-2026",
+          "title": "Why retailers like Ikea are going big on small stores",
+          "publisher": "BNN Bloomberg / Canadian Press",
+          "date": "2026-06-14",
+          "url": "https://www.bnnbloomberg.ca/business/company-news/2026/06/14/why-retailers-like-ikea-are-going-big-on-small-stores/"
+        }
+      ]
+    },
+    {
+      "id": "nike-live-closures",
+      "brand": "Nike",
+      "project": "Nike Live / Well Collective neighborhood stores (cautionary case)",
+      "year": "2018 to 2026",
+      "location": "US (15+ closed across 12 states)",
+      "format": "small neighborhood store tier",
+      "goals": [
+        "community"
+      ],
+      "tactics": [
+        "tiered_formats",
+        "small_format",
+        "partner_store"
+      ],
+      "tech_role": "none",
+      "visit_zones": [
+        "whole_store"
+      ],
+      "what_they_did": "Opened hyperlocal neighborhood stores in 2018 beside its flagships and renamed them Well Collective in 2023. In 2026 Nike closed at least 15 and moved community concepts to partners such as Crenshaw Rec by Foot Locker.",
+      "results": [
+        {
+          "metric": "Closures",
+          "value": "At least 15 neighborhood stores closed by August 2026",
+          "evidence_strength": "third_party_data",
+          "source_id": "retaildive-nikelive-2026"
+        },
+        {
+          "metric": "Current focus",
+          "value": "150+ stores elevated with sport experiences (CEO Elliott Hill)",
+          "evidence_strength": "company_reported",
+          "source_id": "retaildive-nikelive-2026"
+        }
+      ],
+      "lesson": "The community tier is the hardest to sustain alone; partner-run community stores and upgraded flagships are Nike's current answer.",
+      "sources": [
+        {
+          "id": "retaildive-nikelive-2026",
+          "title": "Nike is quietly closing its localized neighborhood stores",
+          "publisher": "Retail Dive",
+          "date": "2026-08-19",
+          "url": "https://www.retaildive.com/news/nike-quietly-closing-nike-live-well-collective-neighborhood-stores/828259/"
+        }
+      ]
+    },
+    {
+      "id": "gentle-monster-growth",
+      "brand": "Gentle Monster (IICOMBINED)",
+      "project": "Exhibition style showrooms",
+      "year": "2020 to 2024",
+      "location": "14 countries",
+      "format": "flagship showrooms",
+      "goals": [
+        "awareness",
+        "new_customers"
+      ],
+      "tactics": [
+        "installation_art",
+        "rotating_takeover"
+      ],
+      "tech_role": "story",
+      "visit_zones": [
+        "whole_store",
+        "destination"
+      ],
+      "what_they_did": "Runs stores as exhibitions built around large kinetic sculptures, refreshes them like galleries, and adds brand collaborations.",
+      "results": [
+        {
+          "metric": "Revenue in 2024",
+          "value": "789.1 billion won, nearly 4x four years earlier",
+          "evidence_strength": "directional",
+          "source_id": "asiae-gm-2025"
+        },
+        {
+          "metric": "Operating margin",
+          "value": "29.6%, with about 40% of revenue from overseas",
+          "evidence_strength": "company_reported",
+          "source_id": "asiae-gm-2025"
+        }
+      ],
+      "lesson": "Installation-led stores can be the brand's main awareness engine; growth is credited to showrooms, collaborations and social media together, not to stores alone.",
+      "sources": [
+        {
+          "id": "asiae-gm-2025",
+          "title": "K-Eyewear on the Rise",
+          "publisher": "Asia Economy",
+          "date": "2025-10-29",
+          "url": "https://view.asiae.co.kr/en/article/2025102414492067980"
+        }
+      ]
+    }
+  ],
+  "practitioner_projects": [
+    {
+      "id": "gc-movement-after-dark",
+      "brand": "Nike",
+      "project": "Movement After Dark (Grace Chee, creative lead, On Board Experiential)",
+      "year": "2025",
+      "location": "Santa Monica Place, Los Angeles",
+      "goals": [
+        "launch",
+        "trial_conversion",
+        "community"
+      ],
+      "tactics": [
+        "launch_event",
+        "customization",
+        "programming_events"
+      ],
+      "tech_role": "story",
+      "visit_zones": [
+        "window",
+        "destination",
+        "exit_service"
+      ],
+      "what_they_did": "Closed the mall for 52 runners. Guests entered through an LED tunnel and a red carpet, found the collection in a concert style merch truss, worked out in a staged live show, and then shopped a private store reopening with Nike By You.",
+      "results": [
+        {
+          "metric": "Sales in under two hours",
+          "value": "$44,000",
+          "evidence_strength": "agency_reported"
+        },
+        {
+          "metric": "Guests who shopped after the session",
+          "value": "85%",
+          "evidence_strength": "agency_reported"
+        },
+        {
+          "metric": "Nike By You",
+          "value": "$7,500 in orders at 38% conversion",
+          "evidence_strength": "agency_reported"
+        }
+      ],
+      "sources": [
+        {
+          "id": "gc-mad",
+          "title": "Movement After Dark",
+          "publisher": "gracechee.com",
+          "date": "2025",
+          "url": "https://www.gracechee.com/#movement-after-dark"
+        }
+      ]
+    },
+    {
+      "id": "gc-race-your-shadow",
+      "brand": "Nike (Kids) at DICK'S House of Sport",
+      "project": "Race Your Shadow (Grace Chee, creative technologist)",
+      "year": "2025",
+      "location": "DICK'S House of Sport, Pittsburgh",
+      "goals": [
+        "trial_conversion"
+      ],
+      "tactics": [
+        "gamified_trial",
+        "partner_store"
+      ],
+      "tech_role": "useful",
+      "visit_zones": [
+        "destination"
+      ],
+      "what_they_did": "Pose tracking turned each child into a particle shadow to race down an LED track. Time of flight sensors timed each run, and difficulty scaled to each child's height.",
+      "results": [
+        {
+          "metric": "Races in two days",
+          "value": "388",
+          "evidence_strength": "agency_reported"
+        },
+        {
+          "metric": "Shoe trials",
+          "value": "424",
+          "evidence_strength": "agency_reported"
+        }
+      ],
+      "sources": [
+        {
+          "id": "gc-rys",
+          "title": "Race Your Shadow",
+          "publisher": "gracechee.com",
+          "date": "2025",
+          "url": "https://www.gracechee.com/#race-your-shadow"
+        }
+      ]
+    },
+    {
+      "id": "gc-chase-ar",
+      "brand": "Chase Payment Solutions",
+      "project": "AR Pastry Boutique (Grace Chee, creative technologist)",
+      "year": "2023",
+      "location": "EEEEEATSCON, New York",
+      "goals": [
+        "trial_conversion",
+        "awareness"
+      ],
+      "tactics": [
+        "personalization",
+        "hospitality"
+      ],
+      "tech_role": "useful",
+      "visit_zones": [
+        "discovery"
+      ],
+      "what_they_did": "Each dessert plate carried an AR trigger. Scanning it opened a browser AR story about the dessert and let visitors pay with Tap to Pay on the same page.",
+      "results": [
+        {
+          "metric": "Visitors who used the AR layer",
+          "value": "1,069 of 1,419 (75%)",
+          "evidence_strength": "agency_reported"
+        }
+      ],
+      "sources": [
+        {
+          "id": "gc-ar",
+          "title": "AR Pastry Boutique",
+          "publisher": "gracechee.com",
+          "date": "2023",
+          "url": "https://www.gracechee.com/#ar-pastry-boutique"
+        }
+      ]
+    },
+    {
+      "id": "gc-visa-hologram",
+      "brand": "Visa",
+      "project": "Visa × NFL Draft hologram (Grace Chee, creative tech lead and 3D designer)",
+      "year": "2022 to 2023",
+      "location": "NFL Draft Experience and NFL Las Vegas store, Las Vegas",
+      "goals": [
+        "awareness",
+        "trial_conversion"
+      ],
+      "tactics": [
+        "installation_art",
+        "culture_partner"
+      ],
+      "tech_role": "story",
+      "visit_zones": [
+        "destination"
+      ],
+      "what_they_did": "Interactive holograms of NFL players at life size, in a 40 by 40 ft pavilion and inside the NFL Las Vegas store.",
+      "results": [
+        {
+          "metric": "Onsite impressions",
+          "value": "310,000+",
+          "evidence_strength": "agency_reported"
+        },
+        {
+          "metric": "Hologram interactions",
+          "value": "2,000+",
+          "evidence_strength": "agency_reported"
+        },
+        {
+          "metric": "Store buyers who paid with Visa",
+          "value": "74%",
+          "evidence_strength": "agency_reported"
+        }
+      ],
+      "sources": [
+        {
+          "id": "gc-visa",
+          "title": "Visa × NFL Draft Hologram",
+          "publisher": "gracechee.com",
+          "date": "2023",
+          "url": "https://www.gracechee.com/#visa-nfl-hologram"
+        }
+      ]
+    },
+    {
+      "id": "gc-converse-by-you",
+      "brand": "Converse",
+      "project": "Converse By You studio (Grace Chee, creative lead and 3D designer, On Board Experiential)",
+      "year": "2025",
+      "location": "The Americana at Brand, Glendale CA",
+      "goals": [
+        "trial_conversion",
+        "service_loyalty"
+      ],
+      "tactics": [
+        "customization"
+      ],
+      "tech_role": "none",
+      "visit_zones": [
+        "exit_service"
+      ],
+      "what_they_did": "Redesigned the sneaker customization studio around what staff told us. Tools sit within reach of each workstation, displays run the full height of the wall, order trays slide down the bench with each customer, and heavy machinery moved to the back counter.",
+      "results": [],
+      "sources": [
+        {
+          "id": "gc-cbyou",
+          "title": "Converse By You",
+          "publisher": "gracechee.com",
+          "date": "2025",
+          "url": "https://www.gracechee.com/#converse-by-you"
+        }
+      ]
+    },
+    {
+      "id": "gc-chicago-marathon",
+      "brand": "Nike",
+      "project": "Chicago Marathon pop up opening night (Grace Chee, creative lead, On Board Experiential)",
+      "year": "2025",
+      "location": "Chicago, IL",
+      "goals": [
+        "community",
+        "launch"
+      ],
+      "tactics": [
+        "launch_event",
+        "programming_events"
+      ],
+      "tech_role": "none",
+      "visit_zones": [
+        "whole_store"
+      ],
+      "what_they_did": "Led creative on the opening night of Nike's marathon week pop up, built to draw in the city's running community from day one.",
+      "results": [],
+      "sources": [
+        {
+          "id": "gc-chi",
+          "title": "Chicago Marathon Pop Up Opening Night",
+          "publisher": "gracechee.com",
+          "date": "2025",
+          "url": "https://www.gracechee.com/#nike-chicago-marathon"
+        }
+      ]
+    },
+    {
+      "id": "gc-nike-dn8",
+      "brand": "Nike",
+      "project": "Dn8 launch, LA and New York (Grace Chee, creative lead and 3D designer, On Board Experiential)",
+      "year": "2025",
+      "location": "Los Angeles and New York",
+      "goals": [
+        "launch",
+        "community"
+      ],
+      "tactics": [
+        "launch_event",
+        "customization",
+        "culture_partner"
+      ],
+      "tech_role": "none",
+      "visit_zones": [
+        "whole_store"
+      ],
+      "what_they_did": "Led creative and 3D design for store launch events in two cities. Sourced and briefed four artists. Three created custom Nike By You designs, and a jewelry designer ran a shoelry bar.",
+      "results": [],
+      "sources": [
+        {
+          "id": "gc-dn8",
+          "title": "Dn8 Launch, LA & NY",
+          "publisher": "gracechee.com",
+          "date": "2025",
+          "url": "https://www.gracechee.com/#nike-dn8-launch"
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "icsc-halo",
+      "finding": "Opening a store raised a retailer's web traffic by 37% on average. Closing one cut web traffic in that market by 9.5% for apparel, 7.9% for department stores, and 16.4% for home goods.",
+      "applies_to": [
+        "new_customers",
+        "awareness"
+      ],
+      "source": {
+        "title": "ICSC says there's a 'halo effect' by retailers having physical stores",
+        "publisher": "CNBC (ICSC research)",
+        "date": "2019-07-22",
+        "url": "https://www.cnbc.com/2019/07/22/icsc-says-theres-a-halo-effect-by-retailers-having-physical-stores.html"
+      },
+      "caveats": "Older study (2016–2018 data); use as directional support for the store's role in omnichannel."
+    },
+    {
+      "id": "placer-tenant-mix-2026",
+      "finding": "Fitness tenants drive 4.2 visits per visitor each month, and 90.8% of those visits last over 30 minutes. From 2019 to 2025 coffee visits grew 26.7% and spa visits 31.8%, while apparel visits fell nearly 25%.",
+      "applies_to": [
+        "community",
+        "service_loyalty"
+      ],
+      "tactics": [
+        "hospitality",
+        "clubs",
+        "programming_events"
+      ],
+      "source": {
+        "title": "Placer.ai: Fitness, service tenants drive visits, dwell times at shopping centers",
+        "publisher": "Chain Store Age (Placer.ai data)",
+        "date": "2026-10-02",
+        "url": "https://chainstoreage.com/placerai-fitness-service-tenants-drive-visits-dwell-times-shopping-centers"
+      }
+    },
+    {
+      "id": "deloitte-stores-2025",
+      "finding": "80% of shopping still happens in stores. Nearly two thirds of shoppers want to see and touch products before they buy, and nearly half will pay extra to pick up within 10 minutes of home.",
+      "applies_to": [
+        "trial_conversion",
+        "service_loyalty"
+      ],
+      "framework": "Five faces of the store: product-focused, service-focused, experiential/showroom, fulfillment/omnichannel, brand & community builder.",
+      "source": {
+        "title": "Future-proof your stores: Adapting physical spaces for a digital-first world",
+        "publisher": "Deloitte",
+        "date": "2025-11-19",
+        "url": "https://www.deloitte.com/us/en/industries/consumer/articles/revolution-evolution-of-retail-stores.html"
+      }
+    },
+    {
+      "id": "troc-whats-not-working",
+      "finding": "Camera analytics cost about a tenth of what they did three years ago. A 2026 retail technology report lists VR shopping, metaverse activations, chatbot service for complex purchases, and fully autonomous stores outside busy formats as not working.",
+      "applies_to": [
+        "trial_conversion"
+      ],
+      "source": {
+        "title": "Retail Technology Trends 2026: What's Actually Working in Stores",
+        "publisher": "T-ROC",
+        "date": "2026-09-16",
+        "url": "https://trocglobal.com/retail-technology-trends-2026/"
+      },
+      "caveats": "Vendor publication."
+    }
+  ],
+  "reference_examples": [
+    {
+      "id": "ref-on-nyc",
+      "brand": "On",
+      "what": "NYC flagship Magic Wall. A few strides of gait analysis and a depth camera foot scan pick the model and size, and an advisor brings the pair from storage behind the wall.",
+      "tech_role": "useful",
+      "tactics": [
+        "fit_diagnosis",
+        "personalization"
+      ],
+      "url": "https://www.retailtouchpoints.com/features/retail-success-stories/sportswear-brand-ons-first-global-flagship-debuts-with-a-magic-wall",
+      "date": "2021-01-04"
+    },
+    {
+      "id": "ref-on-zurich",
+      "brand": "On",
+      "what": "Zurich Movement Lab table. Clouds part as you approach, and lifting a shoe plays a film on its materials. The table is brushed steel to match the store.",
+      "tech_role": "useful",
+      "tactics": [
+        "installation_art",
+        "personalization"
+      ],
+      "url": "https://www.designweek.co.uk/on-running-creates-interactive-movement-lab-in-its-zurich-store/",
+      "date": "2025-11-17"
+    },
+    {
+      "id": "ref-nike-hoi",
+      "brand": "Nike",
+      "what": "House of Innovation NYC, 68,000 sq ft. An atrium sound and video installation called Arena, a customization counter, a members only Expert Studio, a basement Speed Shop with pickup lockers, and mobile checkout.",
+      "tech_role": "story",
+      "tactics": [
+        "customization",
+        "tiered_formats"
+      ],
+      "url": "https://metropolismag.com/projects/nike-house-innovation-flagship-retail-design/",
+      "date": "2019-02"
+    },
+    {
+      "id": "ref-nike-rise",
+      "brand": "Nike",
+      "what": "Nike Rise Seoul, about 24,000 sq ft. A motion reactive LED entrance, a three story Sport Pulse screen with live city activity, a huddle area for local events, repair and recycling, and tees by local artists.",
+      "tech_role": "story",
+      "tactics": [
+        "programming_events",
+        "customization",
+        "circularity_repair"
+      ],
+      "url": "https://www.retaildive.com/news/nike-doubles-down-on-localization-with-nike-rise-concept/604819",
+      "date": "2021-08-11"
+    },
+    {
+      "id": "ref-gm-soho",
+      "brand": "Gentle Monster",
+      "what": "Soho flagship redesign around a kinetic sculpture of three hyperreal faces, an interactive sculpture, and a central LED sphere.",
+      "tech_role": "story",
+      "tactics": [
+        "installation_art"
+      ],
+      "url": "https://hypebeast.com/2026/9/look-inside-gentle-monster-reimagined-new-york-flagship-store",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "ref-coach-selfridges",
+      "brand": "Coach × Selfridges",
+      "what": "Charm Garden residency at the Corner Shop, with a Rexy slide sized for adults, an apple photo booth, a giant Tabby monogramming station, and a charm residency by tattoo artists.",
+      "tech_role": "none",
+      "tactics": [
+        "rotating_takeover",
+        "customization"
+      ],
+      "url": "https://retailtimes.co.uk/how-play-and-participation-are-reshaping-retail-inside-coach-x-selfridges-by-studioxag/",
+      "date": "2026-04"
+    },
+    {
+      "id": "ref-on-selfridges",
+      "brand": "On × Selfridges",
+      "what": "Corner Shop training studio, with an AI installation that turned movement into digital art, run clubs, and fitness and life drawing classes.",
+      "tech_role": "story",
+      "tactics": [
+        "rotating_takeover",
+        "clubs",
+        "programming_events"
+      ],
+      "url": "https://www.selfridges.com/GB/en/inspiration/on-corner-shop/",
+      "date": "2025-01"
+    },
+    {
+      "id": "ref-cafes",
+      "brand": "Uniqlo, Capital One, Aritzia, Ralph Lauren",
+      "what": "Cafés inside stores, from Uniqlo Fifth Avenue (2025) and more than 60 Capital One cafés that host classes to Aritzia's cafés and Ralph's Coffee Newport (2026).",
+      "tech_role": "none",
+      "tactics": [
+        "hospitality",
+        "programming_events"
+      ],
+      "url": "https://www.fortune.com/2025/07/05/retailers-coffee-shops-marketing-ideas",
+      "date": "2025-07-05"
+    },
+    {
+      "id": "ref-sephora-quiet",
+      "brand": "Sephora",
+      "what": "Quiet Hours, with lower music, dimmer light, and quieter screens, piloted in 32 stores across 8 markets and then rolled out worldwide.",
+      "tech_role": "none",
+      "tactics": [
+        "calm_sensory"
+      ],
+      "url": "https://www.globalcosmeticsnews.com/sephora-expands-quiet-hours-initiative-globally-to-create-more-inclusive-shopping-experiences/",
+      "date": "2026-06-22"
+    },
+    {
+      "id": "ref-converse-flog",
+      "brand": "Converse",
+      "what": "Official shoe partner of Camp Flog Gnaw, the festival of Tyler, the Creator, in its tenth year (2024), within a collaboration of about seven years.",
+      "tech_role": "none",
+      "tactics": [
+        "culture_partner"
+      ],
+      "url": "https://officemagazine.net/flog-gnaw-love-converse",
+      "date": "2024-11-22"
+    },
+    {
+      "id": "ref-guitar-center",
+      "brand": "Guitar Center",
+      "what": "Rig Advisor, an AI assistant launched by QR code that recommends gear stocked in that store.",
+      "tech_role": "useful",
+      "tactics": [
+        "personalization"
+      ],
+      "url": "https://www.modernretail.co/technology/retailers-are-bringing-ai-into-stores-in-more-ways/",
+      "date": "2026-04-07"
+    },
+    {
+      "id": "ref-nike-rise-entrance",
+      "brand": "Nike",
+      "what": "Nike Rise Seoul's entrance. A tunnel of screens by the door responds to movement and lights up as each shopper walks in.",
+      "tech_role": "story",
+      "tactics": [
+        "installation_art"
+      ],
+      "url": "https://www.retaildive.com/news/nike-doubles-down-on-localization-with-nike-rise-concept/604819",
+      "date": "2021-08-11"
+    }
+  ],
+  "principles": [
+    {
+      "id": "p-decompression",
+      "rule": "Keep the first 5 to 15 ft clear of signage and key product.",
+      "zone": "decompression",
+      "url": "https://www.aislelabs.com/blog/customer-paths-and-retail-store-layout-part-1/",
+      "publisher": "Aislelabs"
+    },
+    {
+      "id": "p-right-turn",
+      "rule": "Put the hero product and key message on the first wall to the right, where most visitors turn.",
+      "zone": "power_wall",
+      "url": "https://www.aislelabs.com/blog/customer-paths-and-retail-store-layout-part-1/",
+      "publisher": "Aislelabs"
+    },
+    {
+      "id": "p-touch",
+      "rule": "People buy what they can handle. Keep the hero product out from behind glass.",
+      "zone": "discovery",
+      "url": "https://apexdisplay.com.au/the-theories-of-a-shopping-scientist/",
+      "publisher": "Apex Display"
+    },
+    {
+      "id": "p-crowding",
+      "rule": "Give browsing zones generous aisles. Shoppers jostled from behind two or three times tend to leave.",
+      "zone": "discovery",
+      "url": "https://apexdisplay.com.au/the-theories-of-a-shopping-scientist/",
+      "publisher": "Apex Display"
+    },
+    {
+      "id": "p-dwell-tiers",
+      "rule": "Plan short pauses, product interaction, and longer stays as separate zones.",
+      "zone": "connect",
+      "url": "https://caad-design.com/en/third-place-retail-community-spaces",
+      "publisher": "CAAD"
+    },
+    {
+      "id": "p-fast-slow",
+      "rule": "Separate fast missions such as pickup from slow ones such as consultation and customization.",
+      "zone": "whole_store",
+      "url": "https://metropolismag.com/projects/nike-house-innovation-flagship-retail-design/",
+      "publisher": "Metropolis"
+    },
+    {
+      "id": "p-measure",
+      "rule": "Measure dwell by zone, paths, and queues after opening. Camera analytics now cost about a tenth of what they did three years ago.",
+      "zone": "whole_store",
+      "url": "https://trocglobal.com/retail-technology-trends-2026/",
+      "publisher": "T-ROC"
+    },
+    {
+      "id": "p-window-hero",
+      "rule": "Anchor the window on one hero piece with room around it, and make sure it reads from the sidewalk by day and after dark.",
+      "zone": "window",
+      "url": "https://www.shopify.com/blog/window-displays",
+      "publisher": "Shopify"
+    },
+    {
+      "id": "p-landmark",
+      "rule": "Navigate by landmark rather than signs. One visible feature orients the whole floor.",
+      "zone": "destination",
+      "url": "https://www.retaildive.com/news/nike-doubles-down-on-localization-with-nike-rise-concept/604819",
+      "publisher": "Retail Dive"
+    },
+    {
+      "id": "p-modular",
+      "rule": "Keep one zone on modular fixtures, so launches, classes, and residencies need no rebuild.",
+      "zone": "connect",
+      "url": "https://retailtimes.co.uk/how-play-and-participation-are-reshaping-retail-inside-coach-x-selfridges-by-studioxag/",
+      "publisher": "Retail Times"
+    },
+    {
+      "id": "p-local-edit",
+      "rule": "Research the neighborhood first, from nearby businesses to listening sessions with locals, and then edit a small store's range to match.",
+      "zone": "whole_store",
+      "url": "https://corporate.target.com/news-features/article/2018/07/small-format-stores",
+      "publisher": "Target"
+    }
+  ]
+}

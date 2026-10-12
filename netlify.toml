@@ -1,0 +1,21 @@
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+
+[build]
+  publish = "."
+
+[build.environment]
+  NODE_VERSION = "20"
+
+[[redirects]]
+  from = "/"
+  to = "/playbook/"
+  status = 302
+
+[[headers]]
+  for = "/playbook/*.mjs"
+  [headers.values]
+    Content-Type = "text/javascript; charset=utf-8"
+
+# /api/strategy and /api/mockup are routed by `config.path` in each function.
